@@ -1,0 +1,28 @@
+{
+  "name": "@extensionjs/extensionjs-angular",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/extensionjs/extensionjs-angular.git"
+  },
+  "author": {
+    "name": "Patrick Jung",
+    "email": "patrick.pddstudio@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/extensionjs/extensionjs-angular.git/issues"
+  },
+  "main": "extensionjs-angular.umd.js",
+  "module": "extensionjs-angular.js",
+  "jsnext:main": "extensionjs-angular.js",
+  "typings": "extensionjs-angular.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
